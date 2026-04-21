@@ -9,7 +9,7 @@ app = Flask(__name__)
 TELEGRAM_BOT_TOKEN = "8380101160:AAE4p3IPm3wKyHliOfxUBMVIJl4i3Jo-Q3o"
 
 # Buraya @userinfobot'tan aldığın kendi ID numaranı yaz (Tırnak içinde kalsın)
-TELEGRAM_CHAT_ID = "BURAYA_KENDI_ID_NUMARANI_YAZ"
+TELEGRAM_CHAT_ID = 8380101160:AAE4p3IPm3wKyHliOfxUBMVIJl4i3Jo-Q3o
 
 def telegrama_gonder(mesaj):
     """Sinyali anlık olarak Telegram'a fırlatır."""
